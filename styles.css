@@ -1,6 +1,48 @@
+*, *::before, ::after {
+    font-family: Helvetica, Arial, serif;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    font-size: 30px;
+    margin: 0;
+}
+
+footer {
+    font-size: 12px;
+}
+
+nav {
+    margin: 5px auto 0px;
+    width: 20%;
+    text-align: center;
+}
+nav a {
+    background-color: lightgrey;
+    color: white;
+    display: inline;
+    margin: auto;
+    font-size: 20px;
+    padding: 4px;
+}
+
 .inline-block{
   display: inline-block;
 }
 .block{
   display: block;
+}
+.displayed_photos{
+  background-color: grey;
+  font-size: 22px;
+  padding: 10px;
+}
+.displayed_photos span{
+  border-bottom: 2px solid yellow;
 }
