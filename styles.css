@@ -31,18 +31,36 @@ nav a {
     font-size: 20px;
     padding: 4px;
 }
-
+img {
+  width: 100%;
+}
+main{
+  text-align: center;
+}
 .inline-block{
   display: inline-block;
+  width: 30%;
+  margin: 0;
+  padding: 0;
 }
 .block{
   display: block;
+  margin-bottom: 15px;
 }
 .displayed_photos{
   background-color: grey;
   font-size: 22px;
   padding: 10px;
+  text-align: left;
+  width: 89%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .displayed_photos span{
   border-bottom: 2px solid yellow;
+}
+.ed-del{
+  background-color: gold;
+  padding: 5px;
+  margin: 0;
 }
